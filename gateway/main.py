@@ -6,6 +6,10 @@ from fastapi import FastAPI, Request
 from fastapi.responses import Response, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 app = FastAPI(
     title="API Gateway",
     description="Gateway para los servicios de los equipos 4, 5, 7 y 8",

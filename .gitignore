@@ -1,0 +1,14 @@
+# Variables de entorno privadas
+.env
+**/.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Configuración local
+.vscode/
